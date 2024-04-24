@@ -1,0 +1,82 @@
+    1  cd ~/.ssh$
+    2  cd ~/.ssh
+    3  ls -al
+    4  cat ud_rsa.pub
+    5  cat id_rsa.pub
+    6  git config --global user.name VadymVasylevskyi
+    7  git config --global user.email vadim.vasilevskyy@gmail.com
+    8  git config --global -l
+    9  ssh -T git@github.com
+   10  ssh -T git@github.com
+   11  cd D:\IT Career HUB\Git\test
+   12  git clone git@github.com:VadymVasylevskyi/test.git
+   13  git status
+   14  cd ./test
+   15  git status
+   16  git status
+   17  git commit -m "delete and adding"
+   18  git add -a
+   19  git add -A
+   20  git commit -m "delete and adding"
+   21  git push
+   22  учше
+   23  exit
+   24  git clone git@github.com:VadymVasylevskyi/git_intro.git
+   25  cd ./git_intro/
+   26  git init
+   27  git status
+   28  git add -A
+   29  git commit -m "Added photo"
+   30  git branch -M main
+   31  git remote origin git@github.com:VadymVasylevskyi/git_intro.git
+   32  пше куьщеу
+   33  git remote
+   34  git remote add origin git@github.com:VadymVasylevskyi/git_intro.git
+   35  git push -u origin main
+   36  exit
+   37  git clone git@github.com:VadymVasylevskyi/git-branch.git
+   38  cd ./git-branch
+   39  git checkout -v gitignore
+   40  git checkout -b gitignore
+   41  vi .gitignore
+   42  git status
+   43  git add .
+   44  git status
+   45  git commit -m "new file gitignore"
+   46  git push
+   47  git push --set-upstream origin gitignore
+   48  exit
+   49  npm install -g sass
+   50  sass --version
+   51  git clone git@github.com:VadymVasylevskyi/Demo-Fork.git
+   52  cd ./Demo-Fork/
+   53  git checkout -v issueVadym
+   54  git checkout -b issueVadym
+   55  vi script1.sh 
+   56  git add script1.sh 
+   57  git commit -m "script Vadym"
+   58  git push
+   59  git checkout main
+   60  git merge issueVadym 
+   61  git push
+   62  exit
+   63  git clone git@github.com:VadymVasylevskyi/linuxHW12.git
+   64  cd ./linuxHW12/
+   65  ls -al
+   66  vi .gitignore 
+   67  git checkout -b homework
+   68  vi README.md 
+   69  git status
+   70  git add .
+   71  git commit -m "HomeWork Git 12"
+   72  git push origin homework
+   73  git commit --ammend "Homework ammend"
+   74  git commit --amend "Homework ammend"
+   75  git commit --amend 
+   76  git checkout main
+   77  git merge homework 
+   78  git status
+   79  git add .
+   80  git status
+   81  history
+   82  history >>history.txt
